@@ -2,7 +2,6 @@ name: drupal8
 recipe: drupal8
 config:
   php: 7.1
-  via: nginx
   webroot: web
   drush: composer
   drupal: true
