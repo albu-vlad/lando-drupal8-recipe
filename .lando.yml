@@ -1,4 +1,4 @@
-name: drupal8
+name: {%project_name%}
 recipe: drupal8
 config:
   php: 7.1
