@@ -19,3 +19,7 @@ services:
 tooling:
   npm:
     service: node-cli
+  drupal:
+    cmd:
+      - "/app/vendor/bin/drupal"
+      - "--root=/app/web"
