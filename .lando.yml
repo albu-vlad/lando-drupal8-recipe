@@ -23,3 +23,12 @@ tooling:
     cmd:
       - "/app/vendor/bin/drupal"
       - "--root=/app/web"
+  phplint:
+    service: appserver
+    cmd: /app/vendor/bin/phplint
+  phpcs:
+    service: appserver
+    cmd: /app/vendor/bin/phpcs
+  phpunit:
+    service: appserver
+    cmd: /app/vendor/bin/phpunit
