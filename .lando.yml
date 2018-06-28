@@ -7,6 +7,9 @@ config:
   drupal: true
   database: mysql
   xdebug: true
+proxy:
+  pma:
+    - pma.{%project_name%}.lndo.site
 services:
   database:
     type: mysql:5.7
