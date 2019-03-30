@@ -14,7 +14,7 @@ services:
   database:
     type: mysql:5.7
   node-cli:
-    type: 'node:6.10'
+    type: 'node:10'
     globals:
       gulp-cli: latest
   pma:
